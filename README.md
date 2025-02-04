@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in VBScript stemming from the misuse of `On Error Resume Next`. The `GetValue` function uses this statement to suppress errors from `GetSetting`, but this prevents proper error reporting and handling.  The solution showcases more robust error handling.
